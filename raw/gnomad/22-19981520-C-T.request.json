@@ -1,0 +1,29 @@
+{
+  "name": "gnomad/22-19981520-C-T",
+  "url": "https://gnomad.broadinstitute.org/api",
+  "method": "POST",
+  "body": {
+    "query": "query Variant($variantId: String!) {\n      variant(variantId: $variantId, dataset: gnomad_r4) {\n        variant_id rsids\n        exome { ac an af filters }\n        genome { ac an af filters }\n      }\n    }",
+    "variables": {
+      "variantId": "22-19981520-C-T"
+    }
+  },
+  "retrieved_utc": "2026-10-30T11:30:05.522267+00:00",
+  "http_status": 200,
+  "headers": {
+    "server": "envoy",
+    "date": "Fri, 30 Oct 2026 11:30:11 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "220",
+    "vary": "Accept-Encoding",
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "x-request-id": "9fc5f269-cb71-4c6b-8af2-81570f3f7747",
+    "etag": "W/\"dc-us7LhisQZoyC75R0zKcMLZ+k6ec\"",
+    "x-cached": "MISS",
+    "via": "1.1 google",
+    "alt-svc": "h3=\":443\"; ma=2592000",
+    "x-envoy-upstream-service-time": "652",
+    "connection": "close"
+  }
+}

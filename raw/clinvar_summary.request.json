@@ -1,0 +1,32 @@
+{
+  "name": "clinvar_summary",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=clinvar&id=4457942%2C4457463%2C4456431%2C4456057%2C3525634%2C3305447%2C3172261%2C3021939%2C2585196%2C1288326%2C1188397%2C902052%2C783879%2C777710%2C777671%2C769210%2C769156%2C714835%2C709521%2C709520%2C709199%2C544554%2C95175%2C95167%2C95166&retmode=json",
+  "method": "GET",
+  "body": null,
+  "retrieved_utc": "2026-10-30T11:29:22.544880+00:00",
+  "http_status": 200,
+  "headers": {
+    "date": "Fri, 30 Oct 2026 11:29:24 GMT",
+    "server": "envoy",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "content-security-policy": "upgrade-insecure-requests",
+    "referrer-policy": "origin-when-cross-origin",
+    "ncbi-sid": "F14D392BCAC3B86E_E672SID",
+    "ncbi-phid": "1D3356AFDC292C550000369B8A46AC30.1.1.m_1",
+    "content-type": "application/json; charset=UTF-8",
+    "cache-control": "private",
+    "x-ratelimit-limit": "3",
+    "x-ratelimit-remaining": "2",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+    "set-cookie": "ncbi_sid=F14D392BCAC3B86E_E672SID; domain=.nih.gov; path=/; expires=Sat, 30 Oct 2027 11:29:24 GMT",
+    "vary": "Accept-Encoding",
+    "x-ua-compatible": "IE=Edge",
+    "x-xss-protection": "1; mode=block",
+    "via": "1.1 google",
+    "alt-svc": "clear",
+    "x-envoy-upstream-service-time": "173",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  }
+}

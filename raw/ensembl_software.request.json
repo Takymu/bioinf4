@@ -1,0 +1,23 @@
+{
+  "name": "ensembl_software",
+  "url": "https://rest.ensembl.org/info/software?content-type=application/json",
+  "method": "GET",
+  "body": null,
+  "retrieved_utc": "2026-10-30T11:29:46.687791+00:00",
+  "http_status": 200,
+  "headers": {
+    "vary": "Content-Type, Origin",
+    "content-type": "application/json",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "date": "Fri, 30 Oct 2026 11:30:33 GMT",
+    "x-ratelimit-limit": "55000",
+    "x-ratelimit-reset": "1767",
+    "x-runtime": "0.009172",
+    "x-ratelimit-period": "3600",
+    "x-ratelimit-remaining": "54998",
+    "content-length": "15",
+    "x-envoy-upstream-service-time": "41808",
+    "server": "envoy",
+    "connection": "close"
+  }
+}

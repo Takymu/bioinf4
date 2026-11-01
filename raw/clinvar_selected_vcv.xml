@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+                        
+<ClinVarResult-Set><VariationArchive VariationID="544554" VariationName="NM_203446.3(SYNJ1):c.2597T&gt;C (p.Ile866Thr)" VariationType="single nucleotide variant" Accession="VCV000544554" Version="8" RecordType="classified" NumberOfSubmissions="3" NumberOfSubmitters="3" DateLastUpdated="2026-09-27" DateCreated="2018-10-10" MostRecentSubmission="2026-09-22">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="533811" VariationID="544554">
+      <GeneList>
+        <Gene Symbol="SYNJ1" FullName="synaptojanin 1" GeneID="8867" HGNC_ID="HGNC:11503" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>21q22.11</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="32628759" stop="32728394" display_start="32628759" display_stop="32728394" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="34001068" stop="34100350" display_start="34001068" display_stop="34100350" Strand="-"/>
+          </Location>
+          <OMIM>604297</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_203446.3(SYNJ1):c.2597T&gt;C (p.Ile866Thr)</Name>
+      <CanonicalSPDI>NC_000021.9:32656884:A:G</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>21q22.11</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="21" Accession="NC_000021.9" start="32656885" stop="32656885" display_start="32656885" display_stop="32656885" variantLength="1" positionVCF="32656885" referenceAlleleVCF="A" alternateAlleleVCF="G"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="21" Accession="NC_000021.8" start="34029195" stop="34029195" display_start="34029195" display_stop="34029195" variantLength="1" positionVCF="34029195" referenceAlleleVCF="A" alternateAlleleVCF="G"/>
+      </Location>
+      <ProteinChange>I905T</ProteinChange>
+      <ProteinChange>I861T</ProteinChange>
+      <ProteinChange>I866T</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.8" sequenceAccession="NC_000021" sequenceVersion="8" change="g.34029195A&gt;G" Assembly="GRCh37">
+            <Expression>NC_000021.8:g.34029195A&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000021.9" sequenceAccession="NC_000021" sequenceVersion="9" change="g.32656885A&gt;G" Assembly="GRCh38">
+            <Expression>NC_000021.9:g.32656885A&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_030017.2" sequenceAccession="NG_030017" sequenceVersion="2" change="g.76155T&gt;C">
+            <Expression>NG_030017.2:g.76155T&gt;C</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001160302.2" sequenceAccession="NM_001160302" sequenceVersion="2" change="c.2597T&gt;C">
+            <Expression>NM_001160302.2:c.2597T&gt;C</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001153774.1" sequenceAccession="NP_001153774" sequenceVersion="1" change="p.Ile866Thr" singleLetterProteinChange="I866T">
+            <Expression>NP_001153774.1:p.Ile866Thr</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_001160306.2" sequenceAccession="NM_001160306" sequenceVersion="2" change="c.2582T&gt;C">
+            <Expression>NM_001160306.2:c.2582T&gt;C</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_001153778.1" sequenceAccession="NP_001153778" sequenceVersion="1" change="p.Ile861Thr" singleLetterProteinChange="I861T">
+            <Expression>NP_001153778.1:p.Ile861Thr</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_003895.4" sequenceAccession="NM_003895" sequenceVersion="4" change="c.2714T&gt;C">
+            <Expression>NM_003895.4:c.2714T&gt;C</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_003886.3" sequenceAccession="NP_003886" sequenceVersion="3" change="p.Ile905Thr" singleLetterProteinChange="I905T">
+            <Expression>NP_003886.3:p.Ile905Thr</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_203446.3" sequenceAccession="NM_203446" sequenceVersion="3" change="c.2597T&gt;C" MANESelect="true">
+            <Expression>NM_203446.3:c.2597T&gt;C</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_982271.3" sequenceAccession="NP_982271" sequenceVersion="3" change="p.Ile866Thr" singleLetterProteinChange="I866T">
+            <Expression>NP_982271.3:p.Ile866Thr</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+      <XRefList>
+        <XRef ID="CA10003616" DB="ClinGen"/>
+        <XRef Type="rs" ID="114053718" DB="dbSNP"/>
+      </XRefList>
+      <AlleleFrequencyList>
+        <AlleleFrequency Value="0.00013" Source="The Genome Aggregation Database (gnomAD), exomes"/>
+        <AlleleFrequency Value="0.00014" Source="Exome Aggregation Consortium (ExAC)"/>
+        <AlleleFrequency Value="0.00016" Source="1000 Genomes Project 30x"/>
+        <AlleleFrequency Value="0.00018" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00020" Source="1000 Genomes Project"/>
+        <AlleleFrequency Value="0.00021" Source="The Genome Aggregation Database (gnomAD)"/>
+        <AlleleFrequency Value="0.00022" Source="Trans-Omics for Precision Medicine (TOPMed)"/>
+        <AlleleFrequency Value="0.00023" Source="NHLBI Exome Sequencing Project (ESP) Exome Variant Server"/>
+      </AlleleFrequencyList>
+      <GlobalMinorAlleleFrequency Value="0.00020" Source="1000 Genomes Project" MinorAllele="G"/>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_203446.3(SYNJ1):c.2597T&gt;C (p.Ile866Thr) AND multiple conditions" Accession="RCV000655751" Version="7">
+        <ClassifiedConditionList TraitSetID="36416">
+          <ClassifiedCondition DB="MedGen" ID="C4479313">Developmental and epileptic encephalopathy, 53</ClassifiedCondition>
+          <ClassifiedCondition DB="MedGen" ID="C3809824">Early-onset Parkinson disease 20</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2022-09-12" SubmissionCount="1">Uncertain significance</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_203446.3(SYNJ1):c.2597T&gt;C (p.Ile866Thr) AND Inborn genetic diseases" Accession="RCV004025984" Version="1">
+        <ClassifiedConditionList TraitSetID="25797">
+          <ClassifiedCondition DB="MedGen" ID="C0950123">Inborn genetic diseases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2021-04-02" SubmissionCount="1">Uncertain significance</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_203446.3(SYNJ1):c.2597T&gt;C (p.Ile866Thr) AND not provided" Accession="RCV006916698" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-06-24" SubmissionCount="1">Uncertain significance</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2024-06-24" NumberOfSubmissions="3" NumberOfSubmitters="3" DateCreated="2018-10-10" MostRecentSubmission="2026-09-22">
+        <ReviewStatus>criteria provided, multiple submitters, no conflicts</ReviewStatus>
+        <Description>Uncertain significance</Description>
+        <Explanation DataSource="ClinVar" Type="public">Uncertain significance (3)</Explanation>
+        <ConditionList>
+          <TraitSet ID="25797" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32761" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Inborn genetic diseases</ElementValue>
+              </Name>
+              <Citation Type="general" Abbrev="Langer et al., 2012">
+                <ID Source="PubMed">22947299</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="SACHDNC, 2013">
+                <ID Source="PubMed">23037933</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EASAC/FEAM, 2013">
+                <ID Source="PubMed">23169492</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ESHG/P3G/HUGO/PHGF, 2015">
+                <ID Source="PubMed">25626707</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="Alpha-1 Foundation, 2014">
+                <ID Source="PubMed">24121147</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NBSTRN, 2015">
+                <ID Source="PubMed">24394680</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EUNENBS, 2014">
+                <ID Source="PubMed">23652378</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NSGC, 2014">
+                <ID Source="PubMed">23881473</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG/ACOG/NSGC/PQF/SMFM, 2015">
+                <ID Source="PubMed">25730230</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="Skirton et al., 2014">
+                <ID Source="PubMed">24022298</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2013">
+                <ID Source="PubMed">23619275</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACOG, 2019">
+                <ID Source="PubMed">31022120</ID>
+              </Citation>
+              <XRef ID="C0950123" DB="MedGen"/>
+              <XRef ID="D030342" DB="MeSH"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="36416" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="37051" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">Epileptic encephalopathy, early infantile, 53</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">Developmental and epileptic encephalopathy, 53</ElementValue>
+                <XRef ID="MONDO:0033362" DB="MONDO"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">EIEE53</ElementValue>
+                <XRef Type="MIM" ID="617389" DB="OMIM"/>
+              </Symbol>
+              <Symbol>
+                <ElementValue Type="Alternate">DEE53</ElementValue>
+                <XRef Type="MIM" ID="617389" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="16224"/>
+                <XRef ID="16224" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="C4479313" DB="MedGen"/>
+              <XRef ID="MONDO:0033362" DB="MONDO"/>
+              <XRef Type="MIM" ID="617389" DB="OMIM"/>
+            </Trait>
+            <Trait ID="18414" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Early-onset Parkinson disease 20</ElementValue>
+                <XRef ID="MONDO:0014233" DB="MONDO"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">PARKINSON DISEASE 20, AUTOSOMAL RECESSIVE EARLY-ONSET</ElementValue>
+                <XRef Type="MIM" ID="615530" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="604297.0001" DB="OMIM"/>
+                <XRef Type="Allelic variant" ID="604297.0002" DB="OMIM"/>
+              </Name>
+              <Symbol>
+                <ElementValue Type="Alternate">PARK20</ElementValue>
+                <XRef Type="MIM" ID="615530" DB="OMIM"/>
+              </Symbol>
+              <AttributeSet>
+                <Attribute Type="GARD id" integerValue="18462"/>
+                <XRef ID="18462" DB="Office of Rare Diseases"/>
+              </AttributeSet>
+              <XRef ID="391411" DB="Orphanet"/>
+              <XRef ID="C3809824" DB="MedGen"/>
+              <XRef ID="MONDO:0014233" DB="MONDO"/>
+              <XRef Type="MIM" ID="615530" DB="OMIM"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="1487449" SubmissionDate="2023-01-10" ContributesToAggregateClassification="true" DateLastUpdated="2023-02-07" DateCreated="2018-05-28">
+        <ClinVarSubmissionID localKey="1999841|MedGen:CN240908;C3809824" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV000777682" DateUpdated="2023-02-07" DateCreated="2018-05-28" Type="SCV" Version="6" SubmitterName="Labcorp Genetics (formerly Invitae), Labcorp" OrgID="500031" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2022-09-12">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Uncertain significance</GermlineClassification>
+          <Comment>This sequence change replaces isoleucine, which is neutral and non-polar, with threonine, which is neutral and polar, at codon 905 of the SYNJ1 protein (p.Ile905Thr). This variant is present in population databases (rs114053718, gnomAD 0.07%). This variant has not been reported in the literature in individuals affected with SYNJ1-related conditions. ClinVar contains an entry for this variant (Variation ID: 544554). Advanced modeling of protein sequence and biophysical properties (such as structural, functional, and spatial information, amino acid conservation, physicochemical variation, residue mobility, and thermodynamic stability) performed at Invitae indicates that this missense variant is expected to disrupt SYNJ1 protein function. In summary, the available evidence is currently insufficient to determine the role of this variant in disease. Therefore, it has been classified as a Variant of Uncertain Significance.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Invitae Variant Classification Sherloc (09022015)</Attribute>
+          <Citation>
+            <ID Source="PubMed">28492532</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SYNJ1"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NC_000021.8:g.34029195A&gt;G</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="CN240908" Type="CUI"/>
+          </Trait>
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C3809824" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <Citation Type="general">
+          <ID Source="PubMed">28492532</ID>
+        </Citation>
+        <SubmissionNameList>
+          <SubmissionName>SUB12507860</SubmissionName>
+          <SubmissionName>SUB8755776</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="9170460" SubmissionDate="2024-04-20" ContributesToAggregateClassification="true" DateLastUpdated="2024-05-01" DateCreated="2024-05-01">
+        <ClinVarSubmissionID localKey="a8208764|MedGen:C0950123" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV004961676" DateUpdated="2024-05-01" DateCreated="2024-05-01" Type="SCV" Version="1" SubmitterName="Ambry Genetics" OrgID="61756" OrganizationCategory="laboratory" OrgAbbreviation="Ambry"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2021-04-02">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Uncertain significance</GermlineClassification>
+          <Comment>The c.2714T&gt;C (p.I905T) alteration is located in exon 21 (coding exon 21) of the SYNJ1 gene. This alteration results from a T to C substitution at nucleotide position 2714, causing the isoleucine (I) at amino acid position 905 to be replaced by a threonine (T). Based on insufficient or conflicting evidence, the clinical significance of this alteration remains unclear.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Ambry Variant Classification Scheme 2023</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/i9igeqse/ambry_variant_classification_scheme_2023.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="SYNJ1"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_003895.3:c.2714T&gt;C</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0950123" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>FinalClinVarSubmissionFile_20140101to20240315_ava4_2</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="14849215" SubmissionDate="2026-08-20" ContributesToAggregateClassification="true" DateLastUpdated="2026-09-22" DateCreated="2026-09-22">
+        <ClinVarSubmissionID localKey=":Chr.21_34029195_A_G|Not provided" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV007873917" DateUpdated="2026-09-22" DateCreated="2026-09-22" Type="SCV" Version="1" SubmitterName="Blueprint Genetics" OrgID="500188" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-06-24">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Uncertain significance</GermlineClassification>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <SequenceLocation Assembly="GRCh37" Chr="21" alternateAllele="G" referenceAllele="A" start="34029195" stop="34029195" variantLength="1"/>
+          </Location>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB16423224</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="1487449" TraitType="Disease" MappingType="XRef" MappingValue="CN240908" MappingRef="MedGen">
+        <MedGen CUI="C4479313" Name="Developmental and epileptic encephalopathy, 53"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="1487449" TraitType="Disease" MappingType="XRef" MappingValue="C3809824" MappingRef="MedGen">
+        <MedGen CUI="C3809824" Name="Early-onset Parkinson disease 20"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="9170460" TraitType="Disease" MappingType="XRef" MappingValue="C0950123" MappingRef="MedGen">
+        <MedGen CUI="C0950123" Name="Inborn genetic diseases"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="14849215" TraitType="Disease" MappingType="Name" MappingValue="Not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive><VariationArchive VariationID="3305447" VariationName="NM_002608.4(PDGFB):c.434A&gt;G (p.Gln145Arg)" VariationType="single nucleotide variant" Accession="VCV003305447" Version="2" RecordType="classified" NumberOfSubmissions="2" NumberOfSubmitters="2" DateLastUpdated="2026-01-17" DateCreated="2024-08-11" MostRecentSubmission="2026-01-17">
+  <RecordStatus>current</RecordStatus>
+  <Species>Homo sapiens</Species>
+  <ClassifiedRecord>
+    <SimpleAllele AlleleID="3460248" VariationID="3305447">
+      <GeneList>
+        <Gene Symbol="PDGFB" FullName="platelet derived growth factor subunit B" GeneID="5155" HGNC_ID="HGNC:8800" Source="submitted" RelationshipType="within single gene">
+          <Location>
+            <CytogeneticLocation>22q13.1</CytogeneticLocation>
+            <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="39223359" stop="39244982" display_start="39223359" display_stop="39244982" Strand="-"/>
+            <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="39619684" stop="39640956" display_start="39619684" display_stop="39640956" Strand="-"/>
+          </Location>
+          <OMIM>190040</OMIM>
+        </Gene>
+      </GeneList>
+      <Name>NM_002608.4(PDGFB):c.434A&gt;G (p.Gln145Arg)</Name>
+      <CanonicalSPDI>NC_000022.11:39231643:T:C</CanonicalSPDI>
+      <VariantType>single nucleotide variant</VariantType>
+      <Location>
+        <CytogeneticLocation>22q13.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.38" forDisplay="true" AssemblyStatus="current" Chr="22" Accession="NC_000022.11" start="39231644" stop="39231644" display_start="39231644" display_stop="39231644" variantLength="1" positionVCF="39231644" referenceAlleleVCF="T" alternateAlleleVCF="C"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="22" Accession="NC_000022.10" start="39627649" stop="39627649" display_start="39627649" display_stop="39627649" variantLength="1" positionVCF="39627649" referenceAlleleVCF="T" alternateAlleleVCF="C"/>
+      </Location>
+      <OtherNameList>
+        <Name>p.Gln145Arg</Name>
+      </OtherNameList>
+      <ProteinChange>Q145R</ProteinChange>
+      <ProteinChange>Q130R</ProteinChange>
+      <HGVSlist>
+        <HGVS Assembly="GRCh37" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.10" sequenceAccession="NC_000022" sequenceVersion="10" change="g.39627649T&gt;C" Assembly="GRCh37">
+            <Expression>NC_000022.10:g.39627649T&gt;C</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Assembly="GRCh38" Type="genomic, top-level">
+          <NucleotideExpression sequenceAccessionVersion="NC_000022.11" sequenceAccession="NC_000022" sequenceVersion="11" change="g.39231644T&gt;C" Assembly="GRCh38">
+            <Expression>NC_000022.11:g.39231644T&gt;C</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="genomic">
+          <NucleotideExpression sequenceAccessionVersion="NG_012111.1" sequenceAccession="NG_012111" sequenceVersion="1" change="g.18309A&gt;G">
+            <Expression>NG_012111.1:g.18309A&gt;G</Expression>
+          </NucleotideExpression>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_002608.4" sequenceAccession="NM_002608" sequenceVersion="4" change="c.434A&gt;G" MANESelect="true">
+            <Expression>NM_002608.4:c.434A&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_002599.1" sequenceAccession="NP_002599" sequenceVersion="1" change="p.Gln145Arg" singleLetterProteinChange="Q145R">
+            <Expression>NP_002599.1:p.Gln145Arg</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+        <HGVS Type="coding">
+          <NucleotideExpression sequenceAccessionVersion="NM_033016.3" sequenceAccession="NM_033016" sequenceVersion="3" change="c.389A&gt;G">
+            <Expression>NM_033016.3:c.389A&gt;G</Expression>
+          </NucleotideExpression>
+          <ProteinExpression sequenceAccessionVersion="NP_148937.1" sequenceAccession="NP_148937" sequenceVersion="1" change="p.Gln130Arg" singleLetterProteinChange="Q130R">
+            <Expression>NP_148937.1:p.Gln130Arg</Expression>
+          </ProteinExpression>
+          <MolecularConsequence ID="SO:0001583" Type="missense variant" DB="SO"/>
+        </HGVS>
+      </HGVSlist>
+    </SimpleAllele>
+    <RCVList>
+      <RCVAccession Title="NM_002608.4(PDGFB):c.434A&gt;G (p.Gln145Arg) AND Inborn genetic diseases" Accession="RCV004655519" Version="1">
+        <ClassifiedConditionList TraitSetID="25797">
+          <ClassifiedCondition DB="MedGen" ID="C0950123">Inborn genetic diseases</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2024-05-01" SubmissionCount="1">Uncertain significance</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+      <RCVAccession Title="NM_002608.4(PDGFB):c.434A&gt;G (p.Gln145Arg) AND not provided" Accession="RCV006444991" Version="1">
+        <ClassifiedConditionList TraitSetID="9460">
+          <ClassifiedCondition DB="MedGen" ID="C3661900">not provided</ClassifiedCondition>
+        </ClassifiedConditionList>
+        <RCVClassifications>
+          <GermlineClassification>
+            <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+            <Description DateLastEvaluated="2025-12-14" SubmissionCount="1">Likely benign</Description>
+          </GermlineClassification>
+        </RCVClassifications>
+      </RCVAccession>
+    </RCVList>
+    <Classifications>
+      <GermlineClassification DateLastEvaluated="2025-12-14" NumberOfSubmissions="2" NumberOfSubmitters="2" DateCreated="2024-08-11" MostRecentSubmission="2026-01-17">
+        <ReviewStatus>criteria provided, conflicting classifications</ReviewStatus>
+        <Description>Conflicting classifications of pathogenicity</Description>
+        <Explanation DataSource="ClinVar" Type="public">Uncertain significance (1); Likely benign (1)</Explanation>
+        <Comment DataSource="ClinVar" Type="public">Uncertain significance(1); Likely benign(1)</Comment>
+        <DescriptionHistory Dated="2026-01-15">
+          <Description>Uncertain significance</Description>
+        </DescriptionHistory>
+        <ConditionList>
+          <TraitSet ID="9460" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="17556" Type="Disease">
+              <Name>
+                <ElementValue Type="Alternate">none provided</ElementValue>
+              </Name>
+              <Name>
+                <ElementValue Type="Preferred">not provided</ElementValue>
+                <XRef ID="13DG0619" DB="Genomic Medicine Center of Excellence, King Faisal Specialist Hospital and Research Centre"/>
+              </Name>
+              <AttributeSet>
+                <Attribute Type="public definition">The term 'not provided' is registered in MedGen to support identification of submissions to ClinVar for which no condition was named when assessing the variant. 'not provided' differs from 'not specified', which is used when a variant is asserted to be benign, likely benign, or of uncertain significance for conditions that have not been specified.</Attribute>
+              </AttributeSet>
+              <XRef ID="C3661900" DB="MedGen"/>
+            </Trait>
+          </TraitSet>
+          <TraitSet ID="25797" Type="Disease" ContributesToAggregateClassification="true">
+            <Trait ID="32761" Type="Disease">
+              <Name>
+                <ElementValue Type="Preferred">Inborn genetic diseases</ElementValue>
+              </Name>
+              <Citation Type="general" Abbrev="Langer et al., 2012">
+                <ID Source="PubMed">22947299</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="SACHDNC, 2013">
+                <ID Source="PubMed">23037933</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EASAC/FEAM, 2013">
+                <ID Source="PubMed">23169492</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ESHG/P3G/HUGO/PHGF, 2015">
+                <ID Source="PubMed">25626707</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="Alpha-1 Foundation, 2014">
+                <ID Source="PubMed">24121147</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NBSTRN, 2015">
+                <ID Source="PubMed">24394680</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="EUNENBS, 2014">
+                <ID Source="PubMed">23652378</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="NSGC, 2014">
+                <ID Source="PubMed">23881473</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG/ACOG/NSGC/PQF/SMFM, 2015">
+                <ID Source="PubMed">25730230</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="Skirton et al., 2014">
+                <ID Source="PubMed">24022298</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACMG, 2013">
+                <ID Source="PubMed">23619275</ID>
+              </Citation>
+              <Citation Type="general" Abbrev="ACOG, 2019">
+                <ID Source="PubMed">31022120</ID>
+              </Citation>
+              <XRef ID="C0950123" DB="MedGen"/>
+              <XRef ID="D030342" DB="MeSH"/>
+            </Trait>
+          </TraitSet>
+        </ConditionList>
+      </GermlineClassification>
+    </Classifications>
+    <ClinicalAssertionList>
+      <ClinicalAssertion ID="9944888" SubmissionDate="2024-07-05" ContributesToAggregateClassification="true" DateLastUpdated="2024-08-11" DateCreated="2024-08-11">
+        <ClinVarSubmissionID localKey="a185337|MedGen:C0950123" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV005151641" DateUpdated="2024-08-11" DateCreated="2024-08-11" Type="SCV" Version="1" SubmitterName="Ambry Genetics" OrgID="61756" OrganizationCategory="laboratory" OrgAbbreviation="Ambry"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2024-05-01">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Uncertain significance</GermlineClassification>
+          <Comment>The c.434A&gt;G (p.Q145R) alteration is located in exon 4 (coding exon 4) of the PDGFB gene. This alteration results from a A to G substitution at nucleotide position 434, causing the glutamine (Q) at amino acid position 145 to be replaced by an arginine (R). Based on insufficient or conflicting evidence, the clinical significance of this alteration remains unclear.</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">Ambry Variant Classification Scheme 2023</Attribute>
+          <Citation>
+            <URL>https://submit.ncbi.nlm.nih.gov/api/2.0/files/i9igeqse/ambry_variant_classification_scheme_2023.pdf/?format=attachment</URL>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="Description">not provided</Attribute>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PDGFB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_002608.2:c.434A&gt;G</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <XRef DB="MedGen" ID="C0950123" Type="CUI"/>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>FinalClinVarSubmissionFile_20240315to20240625</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+      <ClinicalAssertion ID="13974092" SubmissionDate="2025-12-23" ContributesToAggregateClassification="true" DateLastUpdated="2026-01-17" DateCreated="2026-01-17">
+        <ClinVarSubmissionID localKey="1973291|Not provided" submittedAssembly="GRCh37"/>
+        <ClinVarAccession Accession="SCV007325525" DateUpdated="2026-01-17" DateCreated="2026-01-17" Type="SCV" Version="1" SubmitterName="Mayo Clinic Laboratories, Mayo Clinic" OrgID="500068" OrganizationCategory="laboratory"/>
+        <RecordStatus>current</RecordStatus>
+        <Classification DateLastEvaluated="2025-12-14">
+          <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+          <GermlineClassification>Likely benign</GermlineClassification>
+          <Comment Type="public">BS2, BP4_moderate</Comment>
+        </Classification>
+        <Assertion>variation to disease</Assertion>
+        <AttributeSet>
+          <Attribute Type="AssertionMethod">ACMG Guidelines, 2015</Attribute>
+          <Citation>
+            <ID Source="PubMed">25741868</ID>
+          </Citation>
+        </AttributeSet>
+        <ObservedInList>
+          <ObservedIn>
+            <Sample>
+              <Origin>germline</Origin>
+              <Species TaxonomyId="9606">human</Species>
+              <AffectedStatus>unknown</AffectedStatus>
+            </Sample>
+            <Method>
+              <MethodType>clinical testing</MethodType>
+            </Method>
+            <ObservedData>
+              <Attribute Type="VariantAlleles" integerValue="1"/>
+            </ObservedData>
+          </ObservedIn>
+        </ObservedInList>
+        <SimpleAllele>
+          <GeneList>
+            <Gene Symbol="PDGFB"/>
+          </GeneList>
+          <VariantType>Variation</VariantType>
+          <Location>
+            <GeneLocation>NM_002608.4:exon 4</GeneLocation>
+          </Location>
+          <OtherNameList>
+            <Name>p.Gln145Arg</Name>
+          </OtherNameList>
+          <AttributeSet>
+            <Attribute Type="HGVS">NM_002608.4:c.434A&gt;G</Attribute>
+          </AttributeSet>
+        </SimpleAllele>
+        <TraitSet Type="Disease">
+          <Trait Type="Disease">
+            <Name>
+              <ElementValue Type="Preferred">Not provided</ElementValue>
+            </Name>
+          </Trait>
+        </TraitSet>
+        <SubmissionNameList>
+          <SubmissionName>SUB15885193</SubmissionName>
+        </SubmissionNameList>
+      </ClinicalAssertion>
+    </ClinicalAssertionList>
+    <TraitMappingList>
+      <TraitMapping ClinicalAssertionID="9944888" TraitType="Disease" MappingType="XRef" MappingValue="C0950123" MappingRef="MedGen">
+        <MedGen CUI="C0950123" Name="Inborn genetic diseases"/>
+      </TraitMapping>
+      <TraitMapping ClinicalAssertionID="13974092" TraitType="Disease" MappingType="Name" MappingValue="Not provided" MappingRef="Preferred">
+        <MedGen CUI="C3661900" Name="not provided"/>
+      </TraitMapping>
+    </TraitMappingList>
+  </ClassifiedRecord>
+</VariationArchive>
+</ClinVarResult-Set>

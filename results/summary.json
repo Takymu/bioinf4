@@ -1,0 +1,55 @@
+{
+  "input_file": "input/student_02.vcf",
+  "reference": "GRCh38",
+  "ensembl_release": {
+    "releases": [
+      116
+    ]
+  },
+  "ensembl_rest_software": {
+    "release": 116
+  },
+  "input_sha256": "39682bc31f262e3d7a4f6248b3b879e4fab1b373b5fd53652825c9b8216e07d6",
+  "variant_count": 50,
+  "by_chromosome": {
+    "21": 13,
+    "22": 37
+  },
+  "substitution_counts": {
+    "G>A": 16,
+    "A>G": 11,
+    "T>G": 1,
+    "T>C": 5,
+    "C>T": 12,
+    "C>G": 1,
+    "A>T": 1,
+    "G>C": 2,
+    "G>T": 1
+  },
+  "transitions": 44,
+  "transversions": 6,
+  "ti_tv_ratio": 7.333333333333333,
+  "most_severe_consequence_counts": {
+    "missense_variant": 23,
+    "splice_polypyrimidine_tract_variant": 1,
+    "synonymous_variant": 26
+  },
+  "clinvar_exact_variant_count": 19,
+  "clinvar_classification_counts": {
+    "no exact-allele record found": 31,
+    "Uncertain significance": 3,
+    "Benign": 9,
+    "not provided": 1,
+    "Conflicting classifications of pathogenicity": 3,
+    "Benign/Likely benign": 3
+  },
+  "clinvar_candidate_records": 25,
+  "clinvar_matched_records": 19,
+  "clinvar_excluded_other_allele_records": 6,
+  "gnomad_found_count": 50,
+  "gnomad_ac_an_af_checks": 100,
+  "total_transcript_annotations": 1472,
+  "severity_differs_from_mane_count": 12,
+  "all_input_ref_alt_match_vep": true,
+  "no_api_errors_in_final_gnomad": true
+}

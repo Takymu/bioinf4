@@ -1,0 +1,39 @@
+{
+  "analysis_date": "2026-10-30",
+  "species": "Homo sapiens",
+  "assembly": "GRCh38",
+  "input": "input/student_02.vcf",
+  "input_convention": "VCF positions are 1-based; REF/ALT are genomic forward-strand alleles",
+  "ensembl": {
+    "release": 116,
+    "endpoint": "https://rest.ensembl.org/vep/human/region",
+    "method": "POST",
+    "transcript_set": "Ensembl default; all transcript consequences retained",
+    "parameters": {"canonical": 1, "mane": 1, "hgvs": 1, "numbers": 1, "protein": 1, "variant_class": 1, "transcript_version": 1, "tsl": 1, "check_existing": 1},
+    "no_pick_filter": true,
+    "selection_rule": ["retain transcripts containing VEP most_severe_consequence for the input ALT", "prefer MANE Select", "prefer Ensembl canonical", "prefer protein_coding", "break remaining ties by transcript ID lexicographically"],
+    "mane_comparison": "Also report the MANE Select transcript of the selected gene separately, even if its consequence differs from the overall most severe consequence."
+  },
+  "clinvar": {
+    "source": "NCBI ClinVar E-utilities live database",
+    "search": "All 50 rsIDs OR each GRCh38 chromosome/position; retmax=10000; verify count against returned IDs",
+    "matching": "Exact canonical SPDI (NC_000021.9 or NC_000022.11, 0-based position, genomic REF, genomic ALT) and GRCh38 chromosome/position",
+    "classification": "Germline aggregate classification, review status, last evaluated date and conditions from esummary",
+    "unavailable_date": "ClinVar placeholder 1/01/01 00:00 is shown as missing; unchanged value remains in the raw response",
+    "no_record": "No exact-allele record in this search on the analysis date; this is not a benign classification",
+    "selected_variant_details": "VCV XML for VariationIDs 544554 and 3305447"
+  },
+  "gnomad": {
+    "endpoint": "https://gnomad.broadinstitute.org/api",
+    "method": "GraphQL POST",
+    "dataset": "gnomad_r4",
+    "assembly": "GRCh38",
+    "variant_matching": "chrom-position-REF-ALT exact match",
+    "fields": ["variant_id", "rsids", "exome.ac", "exome.an", "exome.af", "exome.filters", "genome.ac", "genome.an", "genome.af", "genome.filters"],
+    "frequency": "Alternate-allele frequency, not minor allele frequency; AF = AC/AN",
+    "callsets": "Exomes and genomes reported separately; no unvalidated pooling",
+    "missing": "null or empty cell means unavailable, never zero",
+    "quality": "Raw callset filter arrays preserved; all 100 returned callset filter arrays were empty"
+  },
+  "provenance": "Each downloaded JSON has a corresponding .request.json with exact URL, request body, UTC retrieval time and response headers; exports use the cached responses."
+}

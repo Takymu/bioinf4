@@ -1,0 +1,23 @@
+{
+  "name": "ensembl_release",
+  "url": "https://rest.ensembl.org/info/data?content-type=application/json",
+  "method": "GET",
+  "body": null,
+  "retrieved_utc": "2026-10-30T11:29:37.986148+00:00",
+  "http_status": 200,
+  "headers": {
+    "vary": "Content-Type, Origin",
+    "content-type": "application/json",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "date": "Fri, 30 Oct 2026 11:27:03 GMT",
+    "x-ratelimit-limit": "55000",
+    "x-ratelimit-reset": "1977",
+    "x-runtime": "0.030901",
+    "x-ratelimit-period": "3600",
+    "x-ratelimit-remaining": "54994",
+    "content-length": "18",
+    "x-envoy-upstream-service-time": "91",
+    "server": "envoy",
+    "connection": "close"
+  }
+}

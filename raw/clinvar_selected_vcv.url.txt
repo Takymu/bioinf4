@@ -1,0 +1,1 @@
+https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=clinvar&rettype=vcv&is_variationid=&id=544554%2C3305447&from_esearch=true

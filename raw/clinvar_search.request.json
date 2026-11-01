@@ -1,0 +1,32 @@
+{
+  "name": "clinvar_search",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=clinvar&term=rs116645811+OR+rs1135638+OR+rs116331755+OR+rs3989369+OR+rs114053718+OR+rs73901831+OR+rs73901833+OR+rs113417859+OR+rs461155+OR+rs116476013+OR+rs115397760+OR+rs79309256+OR+rs115875072+OR+rs34000365+OR+rs115157927+OR+rs116458396+OR+rs114971216+OR+rs80068543+OR+rs2073747+OR+rs114712273+OR+rs115663049+OR+rs114880937+OR+rs5759611+OR+rs115684319+OR+rs116712499+OR+rs74558263+OR+rs5753130+OR+rs115862749+OR+rs116808844+OR+rs116641021+OR+rs79923828+OR+rs113253213+OR+rs34292743+OR+rs115686643+OR+rs86487+OR+rs6001200+OR+rs5750728+OR+rs35978693+OR+rs55634318+OR+rs116555717+OR+rs114689408+OR+rs116765273+OR+rs114714334+OR+rs75296456+OR+rs8139570+OR+rs116438980+OR+rs11914082+OR+rs115264708+OR+rs6519902+OR+rs114043304+OR+%2821%5BChromosome%5D+AND+%2825587758%5Bchrpos38%5D+OR+25592836%5Bchrpos38%5D+OR+25603832%5Bchrpos38%5D+OR+25606638%5Bchrpos38%5D+OR+32656885%5Bchrpos38%5D+OR+37065660%5Bchrpos38%5D+OR+37067340%5Bchrpos38%5D+OR+38819624%5Bchrpos38%5D+OR+38819714%5Bchrpos38%5D+OR+38821689%5Bchrpos38%5D+OR+43968034%5Bchrpos38%5D+OR+43969150%5Bchrpos38%5D+OR+43969246%5Bchrpos38%5D%29%29+OR+%2822%5BChromosome%5D+AND+%2819353405%5Bchrpos38%5D+OR+19385577%5Bchrpos38%5D+OR+19396916%5Bchrpos38%5D+OR+19972976%5Bchrpos38%5D+OR+19981520%5Bchrpos38%5D+OR+19981552%5Bchrpos38%5D+OR+21962782%5Bchrpos38%5D+OR+21963972%5Bchrpos38%5D+OR+21974379%5Bchrpos38%5D+OR+23160934%5Bchrpos38%5D+OR+24186268%5Bchrpos38%5D+OR+24187576%5Bchrpos38%5D+OR+24188053%5Bchrpos38%5D+OR+30427209%5Bchrpos38%5D+OR+30555417%5Bchrpos38%5D+OR+30556036%5Bchrpos38%5D+OR+31096797%5Bchrpos38%5D+OR+31278313%5Bchrpos38%5D+OR+33304315%5Bchrpos38%5D+OR+33304411%5Bchrpos38%5D+OR+33316147%5Bchrpos38%5D+OR+33626300%5Bchrpos38%5D+OR+38699844%5Bchrpos38%5D+OR+39044144%5Bchrpos38%5D+OR+39225792%5Bchrpos38%5D+OR+39231625%5Bchrpos38%5D+OR+39231644%5Bchrpos38%5D+OR+39374483%5Bchrpos38%5D+OR+39835855%5Bchrpos38%5D+OR+39861847%5Bchrpos38%5D+OR+39862000%5Bchrpos38%5D+OR+39887557%5Bchrpos38%5D+OR+40019984%5Bchrpos38%5D+OR+40021491%5Bchrpos38%5D+OR+44891338%5Bchrpos38%5D+OR+44916364%5Bchrpos38%5D+OR+44920488%5Bchrpos38%5D%29%29&retmode=json&retmax=10000",
+  "method": "GET",
+  "body": null,
+  "retrieved_utc": "2026-10-30T11:29:19.429752+00:00",
+  "http_status": 200,
+  "headers": {
+    "date": "Fri, 30 Oct 2026 11:29:21 GMT",
+    "server": "envoy",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "content-security-policy": "upgrade-insecure-requests",
+    "referrer-policy": "origin-when-cross-origin",
+    "ncbi-sid": "A89D5431E944414D_B241SID",
+    "ncbi-phid": "1D349DCB9C3ECF3500002EA0C3400C4D.1.1.m_1",
+    "content-type": "application/json; charset=UTF-8",
+    "cache-control": "private",
+    "x-ratelimit-limit": "3",
+    "x-ratelimit-remaining": "2",
+    "access-control-allow-origin": "*",
+    "access-control-expose-headers": "X-RateLimit-Limit,X-RateLimit-Remaining",
+    "set-cookie": "ncbi_sid=A89D5431E944414D_B241SID; domain=.nih.gov; path=/; expires=Sat, 30 Oct 2027 11:29:22 GMT",
+    "vary": "Accept-Encoding",
+    "x-ua-compatible": "IE=Edge",
+    "x-xss-protection": "1; mode=block",
+    "via": "1.1 google",
+    "alt-svc": "clear",
+    "x-envoy-upstream-service-time": "274",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  }
+}

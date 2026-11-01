@@ -1,0 +1,47 @@
+[
+  {
+    "variation_id": "544554",
+    "vcv": "VCV000544554.8",
+    "record_last_updated": "2026-09-27",
+    "scv": "SCV000777682.6",
+    "submitter": "Labcorp Genetics (formerly Invitae), Labcorp",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter"
+  },
+  {
+    "variation_id": "544554",
+    "vcv": "VCV000544554.8",
+    "record_last_updated": "2026-09-27",
+    "scv": "SCV004961676.1",
+    "submitter": "Ambry Genetics",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter"
+  },
+  {
+    "variation_id": "544554",
+    "vcv": "VCV000544554.8",
+    "record_last_updated": "2026-09-27",
+    "scv": "SCV007873917.1",
+    "submitter": "Blueprint Genetics",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter"
+  },
+  {
+    "variation_id": "3305447",
+    "vcv": "VCV003305447.2",
+    "record_last_updated": "2026-01-17",
+    "scv": "SCV005151641.1",
+    "submitter": "Ambry Genetics",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter"
+  },
+  {
+    "variation_id": "3305447",
+    "vcv": "VCV003305447.2",
+    "record_last_updated": "2026-01-17",
+    "scv": "SCV007325525.1",
+    "submitter": "Mayo Clinic Laboratories, Mayo Clinic",
+    "classification": "Likely benign",
+    "review_status": "criteria provided, single submitter"
+  }
+]
